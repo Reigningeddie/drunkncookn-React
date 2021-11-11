@@ -6,9 +6,9 @@ export default function Navbar() {
 	return (
 		<nav>
 			<ul className="list">
-				<li className="list">Home</li>
-				<li className="list">Services</li>
-				<li className="list">Contact</li>
+				<li className="items">Home</li>
+				<li className="items">Summary</li>
+				<li className="items">Contact</li>
 			</ul>
 			<button className="btn">BTN</button>
 		</nav>

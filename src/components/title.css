@@ -6,7 +6,9 @@
     --clr-neon: hsla(295, 100%, 54%);
     --clr-bg: hsl(274, 31%, 16%);
 }
-
+body {
+    background: var(--clr-bg);
+}
 
 
 .title {
