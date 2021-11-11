@@ -7,21 +7,15 @@
     --clr-bg: hsl(274, 31%, 16%);
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 
 
-body {
+.title {
     min-height: 100vh;
     display: grid;
     place-items: center;
     background: var(--clr-bg);
     font-family: "Balsamiq sans", cursive;
     color: var(--clr-neon);
-    
 }
 
 .neon-title {
