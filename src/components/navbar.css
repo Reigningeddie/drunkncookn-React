@@ -26,6 +26,7 @@ nav {
     text-transform: uppercase;
     color: #f1f1f1;
     cursor: pointer;
+    z-index: 2;
 }
 
 .btn {

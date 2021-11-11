@@ -21,7 +21,7 @@ export default function Navbar() {
 		return () => {
 			window.removeEventListener('resize', changeWidth)
 		}
-		
+
 	}, [])
 
 	return (
@@ -29,8 +29,12 @@ export default function Navbar() {
 			{(toggleMenu || screenWidth > 500) && (
 			<ul className="list">
 				<li className="items">Home</li>
-				<li className="items">Summary</li>
-				<li className="items">Contact</li>
+				<li className="items">Synopsis</li>
+				<li className="items">Characters</li>
+				<li className="items">Menu</li>
+				<li className="items">Media</li>
+				<li className="items">Merch</li>
+				<li className="items">Contacts</li>
 			</ul>
 			)}
 

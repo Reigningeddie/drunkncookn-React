@@ -18,6 +18,7 @@ body {
     background: var(--clr-bg);
     font-family: "Balsamiq sans", cursive;
     color: var(--clr-neon);
+    z-index: -1;
 }
 
 .neon-title {
@@ -42,6 +43,7 @@ body {
     -ms-user-select: none;
         /* *animation */
     animation: flicker 3s;
+
 }
 
 .neon-title::before {
