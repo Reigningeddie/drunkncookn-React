@@ -1,6 +1,7 @@
-import Title from './components/Title';
-import Navbar from './components/Navbar';
-import { useState } from 'react';
+import { useState } from 'react'
+import Title from './components/Title'
+import Navbar from './components/Navbar'
+import Synopsis from './components/Synopsis'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <>
     <Navbar changeToggle={toggle => setToggle(toggle)}/>
     <Title animateUp={toggle}/>
+    <Synopsis />
     </>
   )
 }
