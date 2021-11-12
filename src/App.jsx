@@ -2,17 +2,19 @@ import { useState } from 'react'
 import Title from './components/Title'
 import Navbar from './components/Navbar'
 import Synopsis from './components/Synopsis'
+import Characters from './components/Characters'
 
 
 function App() {
-  const [toggle, setToggle] = useState(false)
+  const [animate, setAnimate] = useState(false)
 
 
   return (
     <>
-    <Navbar changeToggle={toggle => setToggle(toggle)}/>
-    <Title animateUp={toggle}/>
+    <Navbar changeAnimate={animate => setAnimate(animate)}/>
+    <Title animateUp={animate}/>
     <Synopsis />
+    <Characters />
     </>
   )
 }
