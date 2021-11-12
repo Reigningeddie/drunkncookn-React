@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
 
-
 export default function Navbar() {
+	// *toggle menu
 	const [toggleMenu, setToggleMenu] = useState(false)
 	const [screenWidth, setScreenWidth] = useState (window.innerWidth)
 
 	const toggleNav = () => {
 		setToggleMenu(!toggleMenu)
 	}
-
+	// *navbar responsiveness
 	useEffect(() => {
 
 		const changeWidth = () => {
@@ -23,6 +23,7 @@ export default function Navbar() {
 		}
 
 	}, [])
+
 
 	return (
 		<nav>

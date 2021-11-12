@@ -43,7 +43,6 @@ body {
     -ms-user-select: none;
         /* *animation */
     animation: flicker 3s;
-
 }
 
 .neon-title::before {
@@ -73,6 +72,46 @@ body {
     box-shadow: 0 0 2em 0.5em var(--clr-neon);
     opacity: 0;
     transition: opacity 100ms linear;
+}
+
+.animateUp {
+    animation: moveUp .6s;
+    bottom: 200px;
+}
+
+
+
+@keyframes moveUp {
+    3%{bottom: 6px}
+    6%{bottom: 13px}
+    10%{bottom: 20px}
+    10.3%{bottom: 26px}
+    10.6%{bottom: 33px}
+    20%{bottom: 40px}
+    20.3%{bottom: 46px}
+    20.6%{bottom: 53px}
+    30%{bottom: 60px}
+    30.3%{bottom: 66px}
+    30.6%{bottom: 73px}
+    40%{bottom: 80px}
+    40.3%{bottom: 86px}
+    40.6%{bottom: 93px}
+    50%{bottom: 100px}
+    50.3%{bottom: 106px}
+    50.6%{bottom: 113px}
+    60%{bottom: 120px}
+    60.3%{bottom: 126px}
+    60.6%{bottom: 133px}
+    70%{bottom: 140px}
+    70.3%{bottom: 146px}
+    70.6%{bottom: 156px}
+    80%{bottom: 160px}
+    80.3%{bottom: 163px}
+    80.6%{bottom: 176px}
+    90%{bottom: 180px}
+    90.3%{bottom: 186px}
+    90.6%{bottom: 193px}
+    100%{bottom: 200px}
 }
 
 /* *flicker Effect */
