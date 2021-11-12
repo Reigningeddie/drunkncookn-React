@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Title from './components/Title'
 import Navbar from './components/Navbar'
 import Synopsis from './components/Synopsis'
@@ -10,12 +11,18 @@ function App() {
 
 
   return (
-    <>
+    <Router>
     <Navbar changeAnimate={animate => setAnimate(animate)}/>
     <Title animateUp={animate}/>
-    <Synopsis />
-    <Characters />
-    </>
+    <Switch>
+      <Route path="/synopsis">
+        <Synopsis />
+      </Route>
+      <Route path="/characters">
+        <Characters />
+      </Route>
+    </Switch>
+    </Router>
   )
 }
 
