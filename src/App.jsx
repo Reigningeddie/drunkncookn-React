@@ -15,6 +15,9 @@ function App() {
     <Navbar changeAnimate={animate => setAnimate(animate)}/>
     <Title animateUp={animate}/>
     <Switch>
+      <Route exact path="/title">
+        <Title />
+      </Route>
       <Route path="/synopsis">
         <Synopsis />
       </Route>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 export default function Navbar(props) {
 	// *toggle hamburger menu
@@ -31,20 +31,22 @@ export default function Navbar(props) {
 		<nav>
 			{(toggleMenu || screenWidth > 500) && (
 			<ul className="list">
-				<li onClick={() => props.changeAnimate(false)}
-					className="items">Home</li>
+				<Link onClick={() => props.changeAnimate(false)}
+					className="items">Home</Link>
 				<Link href="/synopsis" onClick={() => props.changeAnimate(true)}
 					className="items">Synopsis</Link>
 				<Link href="characters" onClick={() => props.changeAnimate(true)}
 					className="items">Characters</Link>
-				<li onClick={() => props.changeAnimate(true)}
-					className="items">Menu</li>
-				<li onClick={() => props.changeAnimate(true)}
-					className="items">Media</li>
-				<li onClick={() => props.changeAnimate(true)}
-					className="items">Merch</li>
-				<li onClick={() => props.changeAnimate(true)}
-					className="items">Contacts</li>
+				<Link onClick={() => props.changeAnimate(true)}
+					className="items">Menu</Link>
+				<Link onClick={() => props.changeAnimate(true)}
+					className="items">Media</Link>
+				<Link href="/credits" onClick={() => props.changeAnimate(true)}
+					className="items">Credits</Link>
+				<Link onClick={() => props.changeAnimate(true)}
+					className="items">Merch</Link>
+				<Link onClick={() => props.changeAnimate(true)}
+					className="items">Contacts</Link>
 			</ul>
 			)}
 
