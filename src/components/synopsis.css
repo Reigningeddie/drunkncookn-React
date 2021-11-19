@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+.background {
+    overflow: hidden;
+    color: white;
+    z-index: 3;
+    position: absolute;
+    font-family: 'Roboto';
+    top: 0;
+    /* * push down the wrapper by half the page*/
+    margin: 50% 0 0 0;
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.scroll-text {
+    color: #ffc909;
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: justify;
+    position: relative;
+    animation: scroll 10s linear forwards;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+@keyframes scroll {
+    from { top: 0; }
+    to { top: -7500px }
+}

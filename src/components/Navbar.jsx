@@ -31,11 +31,11 @@ export default function Navbar(props) {
 		<nav>
 			{(toggleMenu || screenWidth > 500) && (
 			<ul className="list">
-				<Link onClick={() => props.changeAnimate(false)}
+				<Link to="/" onClick={() => props.changeAnimate(false)}
 					className="items">Home</Link>
-				<Link href="/synopsis" onClick={() => props.changeAnimate(true)}
+				<Link to="/synopsis" onClick={() => props.changeAnimate(true)}
 					className="items">Synopsis</Link>
-				<Link href="characters" onClick={() => props.changeAnimate(true)}
+				<Link to="/characters" onClick={() => props.changeAnimate(true)}
 					className="items">Characters</Link>
 				<Link onClick={() => props.changeAnimate(true)}
 					className="items">Menu</Link>
