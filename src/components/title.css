@@ -81,6 +81,38 @@ body {
     bottom: 200px;
 }
 
+@keyframes moveDown {
+    3%{top: 6px}
+    6%{top: 13px}
+    10%{top: 20px}
+    10.3%{top: 26px}
+    10.6%{top: 33px}
+    20%{top: 40px}
+    20.3%{top: 46px}
+    20.6%{top: 53px}
+    30%{top: 60px}
+    30.3%{top: 66px}
+    30.6%{top: 73px}
+    40%{top: 80px}
+    40.3%{top: 86px}
+    40.6%{top: 93px}
+    50%{top: 100px}
+    50.3%{top: 106px}
+    50.6%{top: 113px}
+    60%{top: 120px}
+    60.3%{top: 126px}
+    60.6%{top: 133px}
+    70%{top: 140px}
+    70.3%{top: 146px}
+    70.6%{top: 156px}
+    80%{top: 160px}
+    80.3%{top: 163px}
+    80.6%{top: 176px}
+    90%{top: 180px}
+    90.3%{top: 186px}
+    90.6%{top: 193px}
+    100%{top: 200px}
+}
 
 
 @keyframes moveUp {
