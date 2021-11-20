@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 
+.notHome {
+    bottom: 200px;
+}
 
 .background {
     overflow: hidden;
     color: white;
     z-index: 3;
     position: absolute;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     top: 0;
     /* * push down the wrapper by half the page*/
     margin: 50% 0 0 0;
@@ -18,27 +21,25 @@
     height: 100%;
     width: 60%;
     margin: 0 auto;
+    perspective: 450px;
 }
 
 .scroll-text {
     color: #ffc909;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-weight: bold;
     line-height: 1.5em;
     text-align: justify;
     position: relative;
-    animation: scroll 10s linear forwards;
+    animation: scroll 130s linear forwards;
 }
 
-h3 {
-    text-align: center;
-}
 
-h1 {
+h1, h3 {
     text-align: center;
 }
 
 @keyframes scroll {
-    from { top: 0; }
-    to { top: -7500px }
+    from { top: 0; transform: translateZ(0) }
+    to { top: -9500px; transform: translateZ(-1000px) rotateX(10deg)}
 }
