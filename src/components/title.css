@@ -9,7 +9,6 @@
 }
 body {
     background: var(--clr-bg);
-    overflow: hidden;
 }
 
 .title {
@@ -44,6 +43,7 @@ body {
     -ms-user-select: none;
         /* *animation */
     animation: flicker 3s;
+    z-index: 1;
 }
 
 
