@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './navbar.css';
+import navCSS from './navbar.module.css';
 import { Link } from 'react-router-dom';
 
 export default function Navbar(props) {
@@ -28,7 +28,7 @@ export default function Navbar(props) {
 
 
 	return (
-		<nav className="nav">
+		<nav className={navCSS.nav}>
 			{(toggleMenu || screenWidth > 500) && (
 			<ul className="list">
 				<Link to="/" onClick={() => props.changeAnimate(false)}

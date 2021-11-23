@@ -1,11 +1,11 @@
 import React from 'react'
-import './synopsis.css'
+import synopsisCSS from './synopsis.module.css'
 
 //  **TODO: fix reload bug
 
 export default function Synopsis() {
     return (
-        <container className="background">
+        <container className={synopsisCSS.background}>
             <div className="wrapper">
                 <div className="scroll-text">
                     <h1 className="scrollText">* somewhere in a not so</h1>
