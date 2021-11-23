@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    position: 0;
-}
-nav {
+.nav {
     position: fixed;
     top: 0;
     width: 100%;

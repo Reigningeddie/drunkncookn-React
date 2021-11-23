@@ -28,7 +28,7 @@ export default function Navbar(props) {
 
 
 	return (
-		<nav>
+		<nav className="nav">
 			{(toggleMenu || screenWidth > 500) && (
 			<ul className="list">
 				<Link to="/" onClick={() => props.changeAnimate(false)}

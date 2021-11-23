@@ -8,8 +8,8 @@ export default function Synopsis() {
         <container className="background">
             <div className="wrapper">
                 <div className="scroll-text">
-                    <h1>* somewhere in a not so</h1>
-                    <h1>parallel universe *</h1>
+                    <h1 className="scrollText">* somewhere in a not so</h1>
+                    <h1 className="scrollText">parallel universe *</h1>
                     <br />
                     <br />
                     <p>After a very unfortunate situation with a cup of noodles, a fork and microwave. Our protagonist, a young Howard, ends up in a coma which in turn may be a blessing in disguise.</p>
@@ -25,7 +25,7 @@ export default function Synopsis() {
                     <br />
                     <br />
                     <br />
-                    <h3>5 star chef?</h3>
+                    <h3 className="scrollText">5 star chef?</h3>
                 </div>
         </div>
         </container>
