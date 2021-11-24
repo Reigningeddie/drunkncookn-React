@@ -25,7 +25,7 @@ body {
 }
 
 
-.neon-title {
+.neonTitle {
     font-size: 5rem;
     pointer-events: none;
     display: inline-block;
@@ -51,7 +51,7 @@ body {
 }
 
 
-.neon-title::before {
+.neonTitle::before {
     pointer-events: none;
     content: '';
     position: absolute;
@@ -68,7 +68,7 @@ body {
     opacity: 0.7;
 }
 
-.neon-title::after {
+.neonTitle::after {
     content: "";
     position: absolute;
     top: 0;

@@ -1,11 +1,11 @@
 import React from 'react';
-import titleCSS from './title.module.css';
+import neon from './title.module.css';
 
 export default function Title(props) {
-    let animate = props.animateUp ? 'neon-title animateUp' : 'neon-title'
+    let animate = props.animateUp ? `${neon.neonTitle} ${neon.animateUp}` : `${neon.neonTitle}`
     return (
         <>
-        <container className={titleCSS.title}>
+        <container className={neon.title}>
             <h1 className={animate}>Drunkn'Cookn</h1>
         </container>
         </>

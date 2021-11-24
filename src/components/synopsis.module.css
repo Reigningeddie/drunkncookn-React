@@ -34,7 +34,7 @@ body {
     perspective: 450px;
 }
 
-.scroll-text {
+.scrollText {
     color: #ffc909;
     font-size: 3.5vw;
     font-weight: bold;
@@ -45,7 +45,7 @@ body {
 }
 
 
-.scrollText {
+.centerText {
     text-align: center;
 }
 

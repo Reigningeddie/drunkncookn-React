@@ -1,11 +1,17 @@
 import React from 'react'
-import charactersCSS from './characters.module.css'
+import chars from './characters.module.css'
 
+const resetComponent = {
+  padding: '300px',
+  margin: '-448px',
+  left: '151px',
+  bottom: '830px'
+}
 
 export default function Characters() {
   return (
-    <div className={charactersCSS.hello}>
-      Hello Can you see me? can you see me?
+    <div style={resetComponent} className={chars.hello}>
+      Hello Can you see me? can you see me? can you see me?
     </div>
   )
 }

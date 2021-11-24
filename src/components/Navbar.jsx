@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import navCSS from './navbar.module.css';
+import nav from './navbar.module.css';
 import { Link } from 'react-router-dom';
 
 export default function Navbar(props) {
@@ -28,29 +28,29 @@ export default function Navbar(props) {
 
 
 	return (
-		<nav className={navCSS.nav}>
+		<nav className={nav.nav}>
 			{(toggleMenu || screenWidth > 500) && (
-			<ul className="list">
+			<ul className={nav.list}>
 				<Link to="/" onClick={() => props.changeAnimate(false)}
-					className="items">Home</Link>
+					className={nav.items}>Home</Link>
 				<Link to="/synopsis" onClick={() => props.changeAnimate(true)}
-					className="items">Synopsis</Link>
+					className={nav.items}>Synopsis</Link>
 				<Link to="/characters" onClick={() => props.changeAnimate(true)}
-					className="items">Characters</Link>
+					className={nav.items}>Characters</Link>
 				<Link onClick={() => props.changeAnimate(true)}
-					className="items">Menu</Link>
+					className={nav.items}>Menu</Link>
 				<Link onClick={() => props.changeAnimate(true)}
-					className="items">Media</Link>
+					className={nav.items}>Media</Link>
 				<Link href="/credits" onClick={() => props.changeAnimate(true)}
-					className="items">Credits</Link>
+					className={nav.items}>Credits</Link>
 				<Link onClick={() => props.changeAnimate(true)}
-					className="items">Merch</Link>
+					className={nav.items}>Merch</Link>
 				<Link onClick={() => props.changeAnimate(true)}
-					className="items">Contacts</Link>
+					className={nav.items}>Contacts</Link>
 			</ul>
 			)}
 
-			<button onClick={toggleNav} className="btn">BTN</button>
+			<button onClick={toggleNav} className={nav.btn}>BTN</button>
 		</nav>
 	)
 }
