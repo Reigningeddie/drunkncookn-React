@@ -1,3 +1,9 @@
+.reset{
+    position: fixed;
+    bottom: 40px;
+    z-index: 2;
+}
+
 .hello {
     color: white;
 }

@@ -1,17 +1,16 @@
 import React from 'react'
 import chars from './characters.module.css'
 
-const resetComponent = {
-  padding: '300px',
-  margin: '-448px',
-  left: '151px',
-  bottom: '830px'
-}
+
 
 export default function Characters() {
   return (
-    <div style={resetComponent} className={chars.hello}>
-      Hello Can you see me? can you see me? can you see me?
-    </div>
+    <container className={`${chars.reset} ${chars.hello}`}>
+      <main>
+        <section>
+          <h2 className={`${chars.uppercase} ${chars.textCompressed}`}>WITH XFAI, TRADING WILL <span className={chars.textPrimary}>NEVER</span> HAVE TO REMAIN CENTRALIZED</h2>
+        </section>
+      </main>
+    </container>
   )
 }
