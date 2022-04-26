@@ -18,13 +18,13 @@ export default function Characters() {
             </div>
           </div>
           <div className={`${chars.grid} ${chars.featureGrid}`}>
-            <a href="google.com"><img src="images/char1" alt="" /></a>
-            <a href="google.com"><img src="images/char2" alt="" /></a>
-            <a href="google.com"><img src="images/char3" alt="" /></a>
-            <a href="google.com"><img src="images/char4" alt="" /></a>
-            <a href="google.com"><img src="images/char5" alt="" /></a>
-            <a href="google.com"><img src="images/char6" alt="" /></a>
-            <a href="google.com"><img src="images/char7" alt="" /></a>
+            <a href="google.com" aria-label="left-corner"><img src="images/char1" alt="" /></a>
+            <a href="google.com" aria-label="mid-left"><img src="images/char2" alt="" /></a>
+            <a href="google.com" aria-label="mid-right"><img src="images/char3" alt="" /></a>
+            <a href="google.com" aria-label="right-corner"><img src="images/char4" alt="" /></a>
+            <a href="google.com" aria-label="bottom-left"><img src="images/char5" alt="" /></a>
+            <a href="google.com" aria-label="main-character"><img src="images/char6" alt="" /></a>
+            <a href="google.com" aria-label="bottom-right"><img src="images/char7" alt="" /></a>
           </div>
         </section>
       </main>
