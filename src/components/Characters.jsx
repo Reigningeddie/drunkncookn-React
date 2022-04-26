@@ -14,11 +14,17 @@ export default function Characters() {
               <p>XFai develops tooling by graphing the DeFi space to build <strong>game changing</strong>products to benefit users</p>
               <div className={`${chars.flex} ${chars.largeGap}`}>
                 <a href="google.com" className={`${chars.btn}${chars.btnPrimary}`}>WHITEPAPER </a> 
-                <a href="google.com" className={`${chars.btn}${chars.btnAccentUppercase}`}>WATCH VIDEO</a></div>
+                <a href="google.com" className={`${chars.btn}${chars.btnAccent}${chars.uppercase}`}>WATCH VIDEO</a></div>
             </div>
           </div>
           <div className={`${chars.grid} ${chars.featureGrid}`}>
-            
+            <a href="google.com"><img src="images/char1" alt="" /></a>
+            <a href="google.com"><img src="images/char2" alt="" /></a>
+            <a href="google.com"><img src="images/char3" alt="" /></a>
+            <a href="google.com"><img src="images/char4" alt="" /></a>
+            <a href="google.com"><img src="images/char5" alt="" /></a>
+            <a href="google.com"><img src="images/char6" alt="" /></a>
+            <a href="google.com"><img src="images/char7" alt="" /></a>
           </div>
         </section>
       </main>
