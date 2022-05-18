@@ -1,48 +1,8 @@
-:root {
-    --clr-primary: #fc307b;
-    --clr-accent: #2c92ef;
-}
+
 
 .reset{
     position: fixed;
     bottom: 300px;
-    z-index: 2;
     
 }
 
-.body {
-    background: black;
-    color: white;
-    padding: 20vw 0;
-    font-family: sans-serif;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.textPrimary {
-    color: var(--clr-primary);
-}
-
-.textAccent {
-    color: var(--clr-secondary);
-}
-
-.bgPrimary {
-    background-color: var(--clr-primary);
-}
-
-.bgAccent {
-    background-color: var(--clr-accent);
-}
-
-.flex {
-    display: flex;
-    gap: var(--gap, 1rem);
-}
-
-.grid {
-    display: grid;
-    gap: var(--gap, 1rem);
-}
