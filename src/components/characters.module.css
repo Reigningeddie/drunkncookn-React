@@ -1,8 +1,43 @@
-
-
 .reset{
     position: fixed;
     bottom: 300px;
+    z-index: 10;
     
 }
 
+.body {
+    background: black;
+    color: white;
+    padding: 20vw 0;
+    font-family: sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.textPrimary {
+    color: var(--cl-primary);
+}
+
+.textccent {
+    color: var(--clr-secondary);
+}
+
+.bg-primary {
+    background-color: var(--clr-primary);
+}
+
+.bg-accent {
+    background-color: var(--clr-accent);
+}
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+}
