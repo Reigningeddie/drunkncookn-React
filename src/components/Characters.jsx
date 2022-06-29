@@ -7,17 +7,17 @@ import anime from '../images/character-animation.gif'
 
 export default function Characters() {
   return (
-    <container className={` ${chars.body}`}>
+    <container className={`${chars.charsBody}`}>
       <main>
         <section>
         <div className={chars.container}>
           <div className={`${chars.grid} ${chars.gridColumns}`}>
             <div>
-              <h2 className={`${chars.fs700}${chars.uppercase} ${chars.textCompressed}`}>WITH XFAI, TRADING WILL <span className= {chars.textPrimary}>NEVER</span> HAVE TO REMAIN CENTRALIZED</h2>
-              <p>XFai develops tooling by graphing the DeFi space to build <strong>game changing</strong>products to benefit users</p>
+              <h2 className={`${chars.fs700}${chars.uppercase} ${chars.textCompressed}`}>Characters will be <span className= {chars.textPrimary}>Coming Soon</span></h2>
+              <p>Display will be adjusted as the <strong>cast </strong>list begins to get updated</p>
               <div className={`${chars.flex} ${chars.largeGap}`}>
-                <a href="google.com" className={`${chars.btn}${chars.btnPrimary}`}>WHITEPAPER </a> 
-                <a href="google.com" className={`${chars.btn}${chars.btnAccent}${chars.uppercase}`}>WATCH VIDEO</a>
+                <a href="google.com" className={`${chars.btn}${chars.btnPrimary}`}>Character </a> 
+                <a href="google.com" className={`${chars.btn}${chars.btnAccent}${chars.uppercase}`}>Bio</a>
                 </div>
               </div>
             </div>
@@ -26,9 +26,9 @@ export default function Characters() {
             <a href="google.com" aria-label="mid-left"><img src={defaultImg} alt="" /></a>
             <a href="google.com" aria-label="mid-right"><img src={defaultImg} alt="" /></a>
             <a href="google.com" aria-label="right-corner"><img src={defaultImg} alt="" /></a>
-            <a href="google.com" aria-label="bottom-left"><img src={defaultImg} alt="" /></a>
-            <a href="google.com" aria-label="main-character"><img src={defaultImg} alt="" /></a>
-            <a href="google.com" aria-label="bottom-right"><img src={anime} alt="" /></a>
+            <a href="google.com" aria-label="bottom-left"><img src={defaultImg}  alt="" /></a>
+            <a href="google.com" aria-label="main-character"><img src={anime}  alt="" /></a>
+            <a href="google.com" aria-label="bottom-right"><img src={defaultImg}  alt="" /></a>
             </div>
           </div>
           </section>

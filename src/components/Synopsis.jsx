@@ -5,7 +5,7 @@ import syn from './synopsis.module.css'
 
 export default function Synopsis() {
     return (
-        <container className={syn.background}>
+        <container className={syn.synBackground}>
             <div className={syn.wrapper}>
                 <div className={syn.scrollText}>
                     <h1 className={syn.centerText}>* somewhere in a not so</h1>
