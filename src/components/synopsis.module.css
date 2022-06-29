@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 
-/* TODO: when finished change overflow to "hidden" */ 
+/* TODO: when finished change overflow to "hidden" */
+
 
 .synBackground::after {
-    overflow: scroll;
     content: '';
     position: fixed;
     top: 0;
@@ -12,10 +12,10 @@
     background: linear-gradient(180deg, rgba(5,1,32,1) 40%, rgba(5,1,32,0) 100%);
 }
 
-.synBackground {
+.synackground {
     overflow: scroll;
     color: white;
-    position: fixed;
+    position: absolute;
     font-family: 'Roboto', sans-serif;
     top: 0;
     /* * push down the wrapper by half the page*/

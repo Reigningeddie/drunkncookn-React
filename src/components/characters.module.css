@@ -9,16 +9,14 @@
 
 .charsBody {
     position: absolute;
-    float: top;
-    background: black;
     color: white;
     font-size: var(--fs-400);
     padding: 20vw 0;
     font-family: sans-serif;
     line-height: 1;
-    margin-top: 10px;
-    top: 10px;
-    z-index: 15;
+    margin-left: 50px;
+    top: 50px;
+    z-index: 2;
 
 }
 
