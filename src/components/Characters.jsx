@@ -12,7 +12,7 @@ export default function Characters() {
         <section>
         <div className={chars.container}>
           <div className={`${chars.grid} ${chars.gridColumns}`}>
-            <div>
+            <div> 
               <h2 className={`${chars.fs700}${chars.uppercase} ${chars.text}`}>Character casting will be <span className= {chars.textPrimary}>Coming Soon</span></h2>
               <p>Display will be adjusted as the <strong>cast </strong>list begins to get updated</p>
               <div className={`${chars.flex} ${chars.largeGap}`}>
