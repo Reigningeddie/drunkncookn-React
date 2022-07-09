@@ -6,7 +6,6 @@
     --fs-400: 1.25rem;
 }
 
-
 .charsBody {
     position: absolute;
     color: white;
@@ -14,10 +13,9 @@
     padding: 20vw 0;
     font-family: sans-serif;
     line-height: 1;
-    margin-left: 50px;
+    margin-left: 200px;
     top: 50px;
-    z-index: 1;
-
+    z-index: 5;
 }
 
 .uppercase {
@@ -45,12 +43,12 @@
 
 .container {
     display: grid;
-    padding: 1rem 0;
+    padding: 0rem;
     max-width: 65rem;
     margin: 0 auto;
     grid-auto-columns: 1fr;
     grid-auto-flow: column;
-
+    perspective: 75rem;
 }
 
 .flex {
@@ -60,7 +58,7 @@
 
 .grid {
     display: grid;
-    gap: var(--gap, 1rem);
+    gap: var(--gap, 2rem);
 }
 
 .gridColumns {
@@ -72,5 +70,36 @@
 /* featured grid */
 
 .featureGrid {
+    width: 45rem;
     grid-template-columns: repeat(4, 1fr);
+    transform: rotateY(-45deg);
+}
+
+.featureGrid > a {
+    border-radius: 0.75rem;
+    transition: transform 350ms ease-in-out;
+    overflow: hidden;
+}
+
+.featureGrid > a:hover,
+.featureGrid > a:focus-visible {
+    transform: scale(1.25);
+    box-shadow: 0 0 2rem hsl(0 0% 100% / 0.8);
+}
+
+.featureGrid > :nth-child(1),
+.featureGrid > :nth-child(4),
+.featureGrid > :nth-child(5),
+.featureGrid > :nth-child(7) {
+    grid-row: span 2;
+}
+
+.featureGrid > :nth-child(2),
+.featureGrid > :nth-child(3) {
+    grid-row: span 2;
+}
+
+.featureGrid > :nth-child(6) {
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 4;
 }
