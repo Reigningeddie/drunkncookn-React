@@ -4,6 +4,7 @@ import Title from './components/Title'
 import Navbar from './components/Navbar'
 import Synopsis from './components/Synopsis'
 import Characters from './components/Characters'
+import Menu from './components/Menu'
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
       </Route>
       <Route path="/characters">
         <Characters />
+      </Route>
+      <Route path="/menu">
+        <Menu />
       </Route>
     </Switch>
     </Router>

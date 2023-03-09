@@ -25,7 +25,7 @@ export default function Synopsis() {
                     <br />
                     <br />
                     <br />
-                    <h3 className={syn.centerText}>5 star chef?</h3>
+                    <h3 className={syn.centerText}>Michelin chef?</h3>
                 </div>
         </div>
         </container>
