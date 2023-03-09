@@ -1,0 +1,22 @@
+.menuBody {
+  position: absolute;
+  color: orange;
+  top: 50px;
+  width: 99vw;
+  border: solid;
+  border-color: red;
+  z-index: 2;
+}
+
+.container  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.items {
+  display: grid;
+  margin: auto;
+  grid-auto-flow: column;
+}
