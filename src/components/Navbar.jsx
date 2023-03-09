@@ -37,15 +37,15 @@ export default function Navbar(props) {
 					className={nav.items}>Synopsis</Link>
 				<Link to="/characters" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Characters</Link>
-				<Link onClick={() => props.changeAnimate(true)}
+				<Link to="/menu" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Menu</Link>
-				<Link onClick={() => props.changeAnimate(true)}
+				<Link to="/media" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Media</Link>
-				<Link href="/credits" onClick={() => props.changeAnimate(true)}
+				<Link to="/credits" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Credits</Link>
-				<Link onClick={() => props.changeAnimate(true)}
+				<Link to="/merch" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Merch</Link>
-				<Link onClick={() => props.changeAnimate(true)}
+				<Link to="/contacts" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Contacts</Link>
 			</ul>
 			)}
