@@ -23,21 +23,22 @@
   display: grid;
   border: solid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 150px;
+  grid-template-rows: repeat(7, 1fr);
 }
 
-.item1 {
+.item {
   color: green;
   border: solid;
+  height: 150px;
 }
 
-.item2 {
+.cat1 {
   color: yellow;
   grid-column: 2 / 7;
   border: solid;
 }
 
-.item3 {
+.cat2 {
   color: red;
   border: solid;
   grid-column: 7;

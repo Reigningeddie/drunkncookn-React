@@ -7,9 +7,18 @@ export default function Menu() {
       <container className={menu.container}>
         <h1 className={menu.title}>Our Menu</h1>
         <list className={menu.grid}>
-          <p className={menu.item1}>pic</p>
-          <p className={menu.item2}>description</p>
-          <p className={menu.item3}>price</p>
+
+          <h3 className={menu.item}>pic</h3>
+          <p className={menu.cat1}>description</p>
+          <p className={menu.cat2}>price</p>
+
+          <h3 className={menu.item}>pic</h3>
+          <p className={menu.cat1}>description</p>
+          <p className={menu.cat2}>price</p>
+
+          <h3 className={menu.item}>pic</h3>
+          <p className={menu.cat1}>description</p>
+          <p className={menu.cat2}>price</p>
         </list>
       </container>
     </body>
