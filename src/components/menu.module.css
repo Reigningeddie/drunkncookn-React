@@ -3,19 +3,42 @@
   background-color: rgba(0, 0, 0, 0);
   color: orange;
   top: 50px;
-  padding: 20vw 0;
+  padding: 22vw 0;
   width: 99vw;
   z-index: 5;
 }
 
-.container  {
-  display: flex;
-  justify-content: center;
+.container {
+  display: block;
   border: solid;
-  gap: 50px;
+  color: red;
 }
 
-.items {
-  margin: auto;
-  grid-auto-flow: column;
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  border: solid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 150px;
+}
+
+.item1 {
+  color: green;
+  border: solid;
+}
+
+.item2 {
+  color: yellow;
+  grid-column: 2 / 7;
+  border: solid;
+}
+
+.item3 {
+  color: red;
+  border: solid;
+  grid-column: 7;
 }
