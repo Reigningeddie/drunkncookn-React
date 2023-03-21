@@ -31,7 +31,7 @@ export default function Navbar(props) {
 		<nav className={nav.nav}>
 			{(toggleMenu || screenWidth > 500) && (
 			<ul className={nav.list}>
-				<Link to="/" onClick={() => props.changeAnimate(false)}
+				<Link to="/drunkncookn-React" onClick={() => props.changeAnimate(false)}
 					className={nav.items}>Home</Link>
 				<Link to="/synopsis" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Synopsis</Link>
