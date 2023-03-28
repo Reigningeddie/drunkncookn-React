@@ -47,7 +47,7 @@
 .container {
     display: grid;
     padding: 0rem;
-    max-width: 85rem; /*65rem*/
+    max-width: 65em; /*85rem*/
     margin: 0 auto;
     grid-auto-columns: 1fr;
     grid-auto-flow: column;

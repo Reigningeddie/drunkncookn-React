@@ -11,14 +11,6 @@ export default function Menu() {
           <h3 className={menu.item}>pic</h3>
           <p className={menu.cat1}>description</p>
           <p className={menu.cat2}>price</p>
-
-          <h3 className={menu.item}>pic</h3>
-          <p className={menu.cat1}>description</p>
-          <p className={menu.cat2}>price</p>
-
-          <h3 className={menu.item}>pic</h3>
-          <p className={menu.cat1}>description</p>
-          <p className={menu.cat2}>price</p>
         </list>
       </container>
     </body>
