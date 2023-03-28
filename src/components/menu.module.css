@@ -1,45 +1,40 @@
 .menuBody {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0);
-  color: orange;
+  background-color: rgba(255, 255, 255, 0);
   top: 50px;
   padding: 22vw 0;
   width: 99vw;
   z-index: 5;
+
 }
 
 .container {
   display: block;
-  border: solid;
-  color: red;
 }
 
 .title {
   display: flex;
+  color: red;
   justify-content: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 5px; 
+  align-items: center;
 }
 
 .card {
-  display: flex;
-  border: solid;
-  justify-content: center;
-  
-}
-
-.item {
   color: green;
   border: solid;
-  height: 150px;
+  height: 40vh;
+  width: 50vw;
+  align-items: center;
 }
 
-.cat1 {
-  color: yellow;
-  grid-column: 2 / 7;
-  border: solid;
-}
 
-.cat2 {
-  color: red;
-  border: solid;
-  grid-column: 7;
+
+button {
+  height: 40px;
 }

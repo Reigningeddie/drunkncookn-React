@@ -6,9 +6,11 @@ export default function Menu() {
     <body className={menu.menuBody}>
       <container className={menu.container}>
         <h1 className={menu.title}>Our Menu</h1>
-        <list className={menu.card}>
+        <list className={menu.menu}>
 
-          <p className={menu.cat1}>description</p>
+          <button>&larr;</button>
+          <p className={menu.card}>description</p>
+          <button>&rarr;</button>
         </list>
       </container>
     </body>

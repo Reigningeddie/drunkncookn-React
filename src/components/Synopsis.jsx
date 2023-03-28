@@ -6,6 +6,7 @@ import syn from './synopsis.module.css'
 export default function Synopsis() {
     return (
         <container className={syn.synBackground}>
+        <container className={syn.container}>
             <div className={syn.wrapper}>
                 <div className={syn.scrollText}>
                     <h1 className={syn.centerText}>* somewhere in a not so</h1>
@@ -28,6 +29,7 @@ export default function Synopsis() {
                     <h3 className={syn.centerText}>Michelin chef?</h3>
                 </div>
         </div>
+        </container>
         </container>
     )
 }

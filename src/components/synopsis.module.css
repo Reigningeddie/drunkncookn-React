@@ -15,7 +15,6 @@
 .synBackground {
     overflow: scroll;
     color: white;
-    position: absolute;
     font-family: 'Roboto', sans-serif;
     top: 0;
     /* * push down the wrapper by half the page*/
@@ -27,10 +26,17 @@
 
 .wrapper {
     display: flex;
+    border: solid;
     height: 100%;
     width: 60%;
     margin: 0 auto;
     perspective: 450px;
+}
+
+@media screen and (max-width: 794px) {
+    .wrapper {
+        margin: 200px;
+    }
 }
 
 .scrollText {
