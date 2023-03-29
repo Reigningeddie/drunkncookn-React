@@ -92,8 +92,9 @@ body {
 
 .title {
     min-height: 100vh;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: var(--clr-bg); /* * replace with plate var */
     font-family: "Balsamiq sans", cursive;
     color: var(--clr-neon);
