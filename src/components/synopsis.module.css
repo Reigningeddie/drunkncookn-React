@@ -34,10 +34,7 @@
 
 @media screen and (max-width: 900px) {
     .wrapper {
-        width: 100%;
-    }
-    .scrollText {
-        animation: scroll 100s linear forwards;
+        width: 90%;
     }
 }
 
@@ -58,12 +55,13 @@
 
 @keyframes scroll {
     from { top: 0; transform: translateZ(0) }
-    to { top: -4000px; transform: translateZ(-1000px) rotateX(10deg)}
+    to { top: -3500px;}
 }
+
 
 @media screen and (min-width: 900px) {
     @keyframes scroll {
         from { top: 0; transform: translateZ(0) }
-        to { top: -9500px; transform: translateZ(-1000px) rotateX(10deg)}
+        to { top: -9800px; transform: translateZ(-1000px) rotateX(10deg)}
     }
 }
