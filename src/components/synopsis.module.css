@@ -27,9 +27,15 @@
 .wrapper {
     display: flex;
     height: 100%;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     perspective: 450px;
+}
+
+@media screen and (max-width: 900px) {
+    .wrapper {
+        width: 100%;
+    }
 }
 
 .scrollText {
