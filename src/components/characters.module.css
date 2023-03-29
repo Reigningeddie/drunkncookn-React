@@ -50,6 +50,13 @@
     perspective: 75rem;
 }
 
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
 .flex {
     display: flex;
     gap: var(--gap, 1rem);
@@ -71,10 +78,15 @@
 .featureGrid {
     position: relative;
     z-index: -1;
-    left: min(calc(1000px - 100vw) * -1, 0px);
-    width: 45rem;
     grid-template-columns: repeat(4, 1fr);
     transform: rotateY(-45deg);
+}
+
+@media screen and (min-width: 900px) {
+    .featureGrid {
+        left: min(calc(1000px - 100vw) * -1, 0px);
+        width: 45rem;
+    }
 }
 
 .featureGrid > a {
