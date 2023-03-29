@@ -98,7 +98,7 @@ body {
     background: var(--clr-bg); /* * replace with plate var */
     font-family: "Balsamiq sans", cursive;
     color: var(--clr-neon);
-    z-index: 5;
+    z-index: 3;
 }
 
 
