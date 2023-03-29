@@ -37,7 +37,7 @@
         width: 100%;
     }
     .scrollText {
-        animation: scroll 230s linear forwards;
+        animation: scroll 100s linear forwards;
     }
 }
 
@@ -58,5 +58,12 @@
 
 @keyframes scroll {
     from { top: 0; transform: translateZ(0) }
-    to { top: -9500px; transform: translateZ(-1000px) rotateX(10deg)}
+    to { top: -4000px; transform: translateZ(-1000px) rotateX(10deg)}
+}
+
+@media screen and (min-width: 900px) {
+    @keyframes scroll {
+        from { top: 0; transform: translateZ(0) }
+        to { top: -9500px; transform: translateZ(-1000px) rotateX(10deg)}
+    }
 }
