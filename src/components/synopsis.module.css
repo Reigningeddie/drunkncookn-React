@@ -36,6 +36,9 @@
     .wrapper {
         width: 100%;
     }
+    .scrollText {
+        animation: scroll 90s linear forwards;
+    }
 }
 
 .scrollText {
