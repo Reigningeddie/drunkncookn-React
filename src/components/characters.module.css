@@ -50,8 +50,6 @@
     perspective: 75rem;
 }
 
-@media screen 
-
 .flex {
     display: flex;
     gap: var(--gap, 1rem);
