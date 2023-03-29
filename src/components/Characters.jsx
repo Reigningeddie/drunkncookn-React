@@ -16,8 +16,8 @@ export default function Characters() {
               <h2 className={`${chars.fs700}${chars.uppercase} ${chars.text}`}>Character casting will be <span className= {chars.textPrimary}>Coming Soon</span></h2>
               <p>Display will be adjusted as the <strong>cast </strong>list begins to get updated</p>
               <div className={`${chars.flex} ${chars.largeGap}`}>
-                <a href="google.com" className={`${chars.btn}${chars.btnPrimary}`}>Character </a> 
-                <a href="google.com" className={`${chars.btn}${chars.btnAccent}${chars.uppercase}`}>Bio</a>
+                <a href="www.google.com" className={`${chars.btn}${chars.btnPrimary}`}>Character </a> 
+                <a href="www.google.com" className={`${chars.btn}${chars.btnAccent}${chars.uppercase}`}>Bio</a>
                 </div>
               </div>
             </div>

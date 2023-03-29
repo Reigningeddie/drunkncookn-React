@@ -8,8 +8,6 @@
 
 .container {
   display: block;
-  border: solid;
-  color: white;
 }
 
 .title {
@@ -27,8 +25,9 @@
 
 .card {
   color: green;
+  background: rgb(36, 27, 77);
   border: solid;
-  height: 40vh;
+  height: 50vh;
   width: 60vw;
   align-items: center;
 }

@@ -78,6 +78,7 @@ select {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+    z-index: 1;
   }
 }
 
@@ -102,6 +103,13 @@ body {
 }
 
 
+
+
+
+
+
+
+
 .neonTitle {
     font-size: 5rem;
     pointer-events: none;
@@ -124,7 +132,7 @@ body {
     -ms-user-select: none;
         /* *animation */
     animation: flicker 3s;
-    z-index: 5;
+    z-index: 1;
 }
 
 
@@ -156,6 +164,7 @@ body {
     box-shadow: 0 0 2em 0.5em var(--clr-neon);
     opacity: 0;
     transition: opacity 100ms linear;
+    z-index: 1;
 }
 
 .animateUp {
