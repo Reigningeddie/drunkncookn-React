@@ -9,7 +9,6 @@
 .charsBody {
     position: absolute;
     color: white;
-    border: solid;
     font-size: var(--fs-400);
     font-family: sans-serif;
     line-height: 1;
