@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drunkncookn-React/static/css/main.928cfb46.chunk.css",
+    "main.css": "/drunkncookn-React/static/css/main.8ae86e50.chunk.css",
     "main.js": "/drunkncookn-React/static/js/main.ad575708.chunk.js",
     "main.js.map": "/drunkncookn-React/static/js/main.ad575708.chunk.js.map",
     "runtime-main.js": "/drunkncookn-React/static/js/runtime-main.acdce22d.js",
@@ -10,7 +10,7 @@
     "static/js/3.55771bad.chunk.js": "/drunkncookn-React/static/js/3.55771bad.chunk.js",
     "static/js/3.55771bad.chunk.js.map": "/drunkncookn-React/static/js/3.55771bad.chunk.js.map",
     "index.html": "/drunkncookn-React/index.html",
-    "static/css/main.928cfb46.chunk.css.map": "/drunkncookn-React/static/css/main.928cfb46.chunk.css.map",
+    "static/css/main.8ae86e50.chunk.css.map": "/drunkncookn-React/static/css/main.8ae86e50.chunk.css.map",
     "static/js/2.68d358ff.chunk.js.LICENSE.txt": "/drunkncookn-React/static/js/2.68d358ff.chunk.js.LICENSE.txt",
     "static/media/character-animation.545ea23c.gif": "/drunkncookn-React/static/media/character-animation.545ea23c.gif",
     "static/media/default.fbe22057.png": "/drunkncookn-React/static/media/default.fbe22057.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.acdce22d.js",
     "static/js/2.68d358ff.chunk.js",
-    "static/css/main.928cfb46.chunk.css",
+    "static/css/main.8ae86e50.chunk.css",
     "static/js/main.ad575708.chunk.js"
   ]
 }
