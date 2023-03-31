@@ -17,6 +17,23 @@
     z-index: 5;
 }
 
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .charsBody {
+        top: 50vh;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .charsBody {
+        top: 35vh
+    }
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -50,12 +67,6 @@
     perspective: 75rem;
 }
 
-@media screen and (max-width: 900px) {
-    .container {
-        flex-direction: column;
-        row-gap: 20px;
-    }
-}
 
 .flex {
     display: flex;

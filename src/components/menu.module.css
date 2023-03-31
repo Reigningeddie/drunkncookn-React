@@ -6,6 +6,12 @@
   z-index: 5;
 }
 
+@media screen and (max-width: 675px) {
+  .menuBody {
+    top: 33vh;
+  }
+}
+
 .container {
   display: block;
 }

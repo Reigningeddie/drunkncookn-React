@@ -55,6 +55,7 @@ img,
 picture {
   max-width: 100%;
   display: block;
+
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -101,16 +102,19 @@ body {
     z-index: 1;
 }
 
+@media screen and (min-width: 675px) {
+  .neonTitle {
+    font-size: 5rem;
+  }
+}
 
-
-
-
-
-
-
+@media screen and (max-width: 675px) {
+  .neonTitle {
+    font-size: 2rem;
+  }
+}
 
 .neonTitle {
-    font-size: 5rem;
     pointer-events: none;
     display: inline-block;
     text-decoration: none;
