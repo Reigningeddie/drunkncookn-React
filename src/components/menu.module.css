@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Righteous&display=swap');
+
+
 .menuBody {
   position: absolute;
   background-color: rgba(255, 255, 255, 0);
@@ -6,19 +10,15 @@
   z-index: 5;
 }
 
-@media screen and (max-width: 675px) {
-  .menuBody {
-    top: 33vh;
-  }
-}
-
 .container {
   display: block;
 }
 
 .title {
+  font-family: 'Righteous', cursive;
   display: flex;
-  color: red;
+  color: #fa8b8b;
+  font-size: 60px;
   justify-content: center;
 }
 
@@ -30,12 +30,68 @@
 }
 
 .card {
-  color: green;
-  background: rgb(36, 27, 77);
+  color: #5fd0ce;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(28, 24, 46);
   border: solid;
+  border-radius: 15px;
   height: 50vh;
   width: 60vw;
   align-items: center;
+}
+
+@media screen and (max-width: 675px) {
+  .menuBody {
+    top: 33vh;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .card {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .pic {
+    margin-top: 20px;
+  }
+  
+  .des {
+    margin-top: -30px;
+  }
+}
+
+@media screen and (min-width: 675px) {
+  .pic {
+    margin-left: 8px;
+  }
+
+  .des {
+    margin-left: -30px;
+  }
+
+  .price {
+    margin-left: -30px;
+  }
+}
+
+.pic {
+  background-color: #fa8b8b;
+  padding: 8vw;
+  border-radius: 50%;
+}
+
+.des {
+  padding: 8vw;
+}
+
+.price {
+  color: #fa8b8b;
+  font-size: 1rem;
+  padding: 5vw;
 }
 
 

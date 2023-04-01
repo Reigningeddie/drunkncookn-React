@@ -39,12 +39,12 @@ export default function Navbar(props) {
 					className={nav.items}>Characters</Link>
 				<Link to="/menu" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Menu</Link>
-				<Link to="/media" onClick={() => props.changeAnimate(true)}
+				{/* <Link to="/media" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Media</Link>
 				<Link to="/credits" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Credits</Link>
 				<Link to="/merch" onClick={() => props.changeAnimate(true)}
-					className={nav.items}>Merch</Link>
+					className={nav.items}>Merch</Link> */}
 				<Link to="/contacts" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Contacts</Link>
 			</ul>
