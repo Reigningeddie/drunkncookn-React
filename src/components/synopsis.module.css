@@ -17,9 +17,10 @@
     color: white;
     font-family: 'Roboto', sans-serif;
     /* * push down the wrapper by half the page*/
-    margin: 50% 0 0 0;
+    margin: 5% 0 0 0;
     position: absolute;
     z-index: 5;
+
 }
 
 
@@ -32,15 +33,6 @@
     z-index: 5;
 }
 
-@media screen and (max-width: 900px) {
-    .wrapper {
-        width: 90%;
-    }
-    .synBackground {
-        margin: -30% 0 0 0;
-    }
-
-}
 
 .scrollText {
     color: #ffc909;
@@ -49,7 +41,7 @@
     line-height: 1.5em;
     text-align: justify;
     position: relative;
-    animation: scroll 1100s linear forwards;
+    animation: scroll 700s linear forwards;
     z-index: 5;
 }
 
@@ -65,16 +57,13 @@
 }
 
 
-@media screen and (min-width: 900px) {
+
+@media screen and (min-width: 1000px) {
     @keyframes scroll {
         from { top: 0; transform: translateZ(0) }
         to { top: -9800px; transform: translateZ(-1000px) rotateX(8deg)}
     }
     .scrollText {
-        animation: scroll 130s linear forwards;
-    }
-
-    .synBackground {
-        top: 0;
+        animation: scroll 150s linear forwards;
     }
 }
