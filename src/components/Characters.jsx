@@ -22,13 +22,14 @@ export default function Characters() {
               </div>
             </div>
           <div className={`${chars.grid} ${chars.featureGrid}`}>
-            <a href="google.com" aria-label="left-corner bio"><img src={defaultImg} alt="" /></a>
-            <a href="google.com" aria-label="mid-left bio"><img src={defaultImg} alt="" /></a>
-            <a href="google.com" aria-label="mid-right bio"><img src={defaultImg} alt="" /></a>
-            <a href="google.com" aria-label="right-corner bio"><img src={defaultImg} alt="" /></a>
-            <a href="google.com" aria-label="bottom-left bio"><img src={defaultImg}  alt="" /></a>
-            <a href="google.com" aria-label="main-character bio"><img src={anime}  alt="" /></a>
-            <a href="google.com" aria-label="bottom-right bio"><img src={defaultImg}  alt="" /></a>
+                {/*change p tag to anchor tag to add hyper link */}
+            <p aria-label="left-corner bio"><img src={defaultImg} alt="" /></p>
+            <p aria-label="mid-left bio"><img src={defaultImg} alt="" /></p>
+            <p aria-label="mid-right bio"><img src={defaultImg} alt="" /></p>
+            <p aria-label="right-corner bio"><img src={defaultImg} alt="" /></p>
+            <p aria-label="bottom-left bio"><img src={defaultImg}  alt="" /></p>
+            <p aria-label="main-character bio"><img src={anime}  alt="" /></p>
+            <p aria-label="bottom-right bio"><img src={defaultImg}  alt="" /></p>
             </div>
           </div>
           </section>

@@ -100,14 +100,16 @@
     }
 }
 
-.featureGrid > a {
+/* change "p" to "a" to add style to element */
+
+.featureGrid > p {
     border-radius: 0.75rem;
     transition: transform 350ms ease-in-out;
     overflow: hidden;
 }
 
-.featureGrid > a:hover,
-.featureGrid > a:focus-visible {
+.featureGrid > p:hover,
+.featureGrid > p:focus-visible {
     transform: scale(1.25);
     box-shadow: 0 0 2rem hsl(0 0% 100% / 0.8);
 }
