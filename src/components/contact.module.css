@@ -1,0 +1,7 @@
+.contBody {
+  position: absolute;
+  border: solid;
+  color: white;
+  height: 100px;
+  width: 100px;
+}

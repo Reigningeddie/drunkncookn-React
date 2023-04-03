@@ -125,15 +125,11 @@
 .featureGrid > :nth-child(5),
 .featureGrid > :nth-child(7) {
     grid-row: span 2;
-    border: solid;
-    color: #5fd0ce;
 }
 
 .featureGrid > :nth-child(2),
 .featureGrid > :nth-child(3) {
     grid-row: span 2;
-    border: solid;
-    color: #5fd0ce;
 }
 
 .featureGrid > :nth-child(6) {

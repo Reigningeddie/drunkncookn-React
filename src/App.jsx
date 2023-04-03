@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Synopsis from './components/Synopsis'
 import Characters from './components/Characters'
 import Menu from './components/Menu'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
       </Route>
       <Route path="/menu">
         <Menu />
+      </Route>
+      <Route path="/contacts">
+        <Contact />
       </Route>
     </Switch>
     </HashRouter>
