@@ -1,5 +1,5 @@
 :root {
-    --clr-primary: #fc307b;
+    --clr-primary: #ff5e99;
     --clr-secondary: #2c92ef;
 
     --fs-700: 3.5rem;
@@ -68,15 +68,21 @@
 }
 
 
+
+
 .flex {
     display: flex;
     gap: var(--gap, 1rem);
+    border: solid;
+    color: #5fd0ce;
 }
 
 .grid {
     display: grid;
     gap: var(--gap, 2rem);
 }
+
+
 
 .gridColumns {
     grid-auto-columns: 1fr;
@@ -119,14 +125,22 @@
 .featureGrid > :nth-child(5),
 .featureGrid > :nth-child(7) {
     grid-row: span 2;
+    border: solid;
+    color: #5fd0ce;
 }
 
 .featureGrid > :nth-child(2),
 .featureGrid > :nth-child(3) {
     grid-row: span 2;
+    border: solid;
+    color: #5fd0ce;
 }
 
 .featureGrid > :nth-child(6) {
     grid-column: 2 / span 2;
     grid-row: 3 / span 4;
+}
+
+.grey {
+    filter: invert(20%);
 }
