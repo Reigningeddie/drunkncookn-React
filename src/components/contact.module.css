@@ -1,7 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Righteous&display=swap');
+
 .contBody {
   position: absolute;
-  border: solid;
-  color: white;
+  background-color: rgba(255, 255, 255, 0);
   top: 50vh;
   width: 99vw;
+  z-index: 1;
+}
+
+.container  {
+  display: block;
+}
+
+.title {
+  display: flex;
+  font-family: 'Righteous', cursive;
+  justify-content: center;
+  color: #fa8b8b;
+  font-size: 60px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.card {
+  color: #5fd0ce;
+  border: solid;
+  border-radius: 15px;
+  padding: 20px;
+  height: 50vh;
+  width: 40vw;
 }
