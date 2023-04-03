@@ -20,6 +20,18 @@
   font-size: 60px;
 }
 
+.subTitle {
+  display: flex;
+  font-family: 'Righteous', cursive;
+  color: #fa8b8b;
+  justify-content: center;
+  align-items: center;
+}
+
+.href {
+  font-size: 40px;
+}
+
 .flex {
   display: flex;
   justify-content: space-around;
@@ -29,6 +41,7 @@
 
 .card {
   color: #5fd0ce;
+  background: #1c182e;
   border: solid;
   border-radius: 15px;
   padding: 20px;
