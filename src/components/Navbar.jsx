@@ -32,12 +32,12 @@ export default function Navbar(props) {
 			{(toggleMenu || screenWidth > 500) && (
 			<ul className={nav.list}>
 				<Link to="/drunkncookn-React" onClick={() => props.changeAnimate(false)}
-					className={nav.items} onClickCapture={(toggleNav)}>Home</Link>
-				<Link to="/synopsis" onClick={() => props.changeAnimate(true)} onClickCapture={(toggleNav)}
+					className={nav.items}>Home</Link>
+				<Link to="/synopsis" onClick={() => props.changeAnimate(true)} 
 					className={nav.items}>Synopsis</Link>
-				<Link to="/characters" onClick={() => props.changeAnimate(true)} onClickCapture={(toggleNav)}
+				<Link to="/characters" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Characters</Link>
-				<Link to="/menu" onClick={() => props.changeAnimate(true)} onClickCapture={(toggleNav)}
+				<Link to="/menu" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Menu</Link>
 				{/* <Link to="/media" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Media</Link>
@@ -45,7 +45,7 @@ export default function Navbar(props) {
 					className={nav.items}>Credits</Link>
 				<Link to="/merch" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Merch</Link> */}
-				<Link to="/contacts" onClick={() => props.changeAnimate(true)} onClickCapture={(toggleNav)}
+				<Link to="/contacts" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Contacts</Link>
 			</ul>
 			)}
