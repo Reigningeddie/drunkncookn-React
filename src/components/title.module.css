@@ -175,6 +175,11 @@ body {
     bottom: 200px;
 }
 
+.animateDown {
+  animation: moveDown .6s;
+    bottom:200px;
+}
+
 @keyframes moveDown {
     3%{top: 6px}
     6%{top: 13px}
