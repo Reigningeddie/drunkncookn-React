@@ -7,7 +7,7 @@ export default function Contact() {
       <body className={cont.contBody}>
         <container className={cont.container}>
           <h1 className={cont.title}>Get in touch</h1>
-          <h2 className={cont.subTitle}>follow Drunkn'cookn on IG: <a href="https://www.instagram.com/drunkncookn/" className={cont.href}> @drunkncookn</a></h2>
+          <h2 className={cont.subTitle}>follow Drunkn'cookn on IG:&nbsp;<a href="https://www.instagram.com/drunkncookn/" className={cont.href}>@drunkncookn</a></h2>
           <container className={cont.flex}>
 
             <card className={cont.card}>
