@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { HashRouter, HashRouter as Route, Switch } from 'react-router-dom'
 import Title from './components/Title'
 import Navbar from './components/Navbar'
@@ -9,8 +9,17 @@ import Contact from './components/Contact'
 
 
 function App() {
+  
   const [animate, setAnimate] = useState(false)
 
+  useEffect(() => {
+    const data = window.localStorage.getItem('ANIMATE');
+    setAnimate(JSON.parse(data));
+  }, [])
+
+  useEffect(() => {
+    window.localStorage.setItem('ANIMATE', JSON.stringify(animate))
+  }, [animate]);
 
   return (
     <HashRouter>
