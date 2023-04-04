@@ -23,13 +23,13 @@ export default function Characters() {
             </div>
           <div className={`${chars.grid} ${chars.featureGrid}`}>
                 {/*change p tag to anchor tag to add hyper link */}
-            <p aria-label="left-corner bio"><img src={defaultImg} alt="" className={chars.grey}/></p>
-            <p aria-label="mid-left bio"><img src={defaultImg} alt="" className={chars.grey}/></p>
-            <p aria-label="mid-right bio"><img src={defaultImg} alt="" className={chars.grey}/></p>
-            <p aria-label="right-corner bio"><img src={defaultImg} alt="" className={chars.grey}/></p>
-            <p aria-label="bottom-left bio"><img src={defaultImg}  alt="" className={chars.grey}/></p>
-            <p aria-label="main-character bio"><img src={anime}  alt="" className={chars.grey}/></p>
-            <p aria-label="bottom-right bio"><img src={defaultImg}  alt="" className={chars.grey}/></p>
+            <p aria-label="left-corner bio"><img src={defaultImg} alt="" className={chars.item}/></p>
+            <p aria-label="mid-left bio"><img src={defaultImg} alt="" className={chars.item}/></p>
+            <p aria-label="mid-right bio"><img src={defaultImg} alt="" className={chars.item}/></p>
+            <p aria-label="right-corner bio"><img src={defaultImg} alt="" className={chars.item}/></p>
+            <p aria-label="bottom-left bio"><img src={defaultImg}  alt="" className={chars.item}/></p>
+            <p aria-label="main-character bio"><img src={anime}  alt="" className={chars.item}/></p>
+            <p aria-label="bottom-right bio"><img src={defaultImg}  alt="" className={chars.item}/></p>
             </div>
           </div>
           </section>

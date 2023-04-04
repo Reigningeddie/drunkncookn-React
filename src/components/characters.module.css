@@ -103,7 +103,7 @@
     z-index: -1;
     grid-template-columns: repeat(4, 1fr);
     width: 80vw;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 @media screen and (min-width: 900px) {
@@ -117,7 +117,6 @@
     }
 
     .featureGrid {
-        position: relative;
         z-index: -1;
         grid-template-columns: repeat(4, 1fr);
         transform: rotateY(-45deg);
@@ -155,6 +154,6 @@
     grid-row: 3 / span 4;
 }
 
-.grey {
+.item {
     filter: invert(20%);
 }
