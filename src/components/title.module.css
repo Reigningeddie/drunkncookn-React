@@ -177,7 +177,6 @@ body {
 
 .animateDown {
   animation: moveDown .6s;
-    bottom:200px;
 }
 
 @keyframes moveDown {
