@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/drunkncookn-React/static/css/main.67e80742.chunk.css",
-    "main.js": "/drunkncookn-React/static/js/main.50054f65.chunk.js",
-    "main.js.map": "/drunkncookn-React/static/js/main.50054f65.chunk.js.map",
+    "main.js": "/drunkncookn-React/static/js/main.ac3b1962.chunk.js",
+    "main.js.map": "/drunkncookn-React/static/js/main.ac3b1962.chunk.js.map",
     "runtime-main.js": "/drunkncookn-React/static/js/runtime-main.ce8bf0ff.js",
     "runtime-main.js.map": "/drunkncookn-React/static/js/runtime-main.ce8bf0ff.js.map",
     "static/js/2.d9513792.chunk.js": "/drunkncookn-React/static/js/2.d9513792.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.ce8bf0ff.js",
     "static/js/2.d9513792.chunk.js",
     "static/css/main.67e80742.chunk.css",
-    "static/js/main.50054f65.chunk.js"
+    "static/js/main.ac3b1962.chunk.js"
   ]
 }
