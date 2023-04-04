@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Righteous&display=swap');
+
 :root {
     --clr-primary: #ff5e99;
     --clr-secondary: #2c92ef;
@@ -68,7 +70,11 @@
 }
 
 
-
+.text {
+    font-family: 'Righteous', cursive;
+    color: #fa8b8b;
+    font-size: 45px;
+}
 
 .flex {
     display: flex;
@@ -96,13 +102,25 @@
     position: relative;
     z-index: -1;
     grid-template-columns: repeat(4, 1fr);
-    transform: rotateY(-45deg);
+    width: 80vw;
+    margin-left: 50px;
 }
 
 @media screen and (min-width: 900px) {
     .featureGrid {
         left: min(calc(1000px - 100vw) * -1, 0px);
         width: 45rem;
+    }
+    
+    .gridColumns {
+        width: 35vw;
+    }
+
+    .featureGrid {
+        position: relative;
+        z-index: -1;
+        grid-template-columns: repeat(4, 1fr);
+        transform: rotateY(-45deg);
     }
 }
 
