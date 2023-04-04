@@ -32,8 +32,9 @@
 
 @media screen and (max-width: 675px) {
     .charsBody {
-        top: 35vh
+        top: 33vh
     }
+
 }
 
 .uppercase {
