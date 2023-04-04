@@ -24,6 +24,15 @@ export default function Navbar(props) {
 		}
 	}, [])
 
+	/* create function to toggle props animate to true */
+	function ani() {
+		props.changeAnimate(true);
+	}
+	/* create function to toggle props animate to false */
+	function animate() {
+		props.changeAnimate(false);
+	}
+
 
 
 
@@ -31,13 +40,13 @@ export default function Navbar(props) {
 		<nav className={nav.nav}>
 			{(toggleMenu || screenWidth > 500) && (
 			<ul className={nav.list}>
-				<Link to="/drunkncookn-React" onClick={() => props.changeAnimate(false)}
+				<Link to="/drunkncookn-React" onClick={() => {animate(); toggleNav()}}
 					className={nav.items}>Home</Link>
-				<Link to="/synopsis" onClick={() => props.changeAnimate(true)} 
+				<Link to="/synopsis" onClick={() => {ani(); toggleNav()}} 
 					className={nav.items}>Synopsis</Link>
-				<Link to="/characters" onClick={() => props.changeAnimate(true)}
+				<Link to="/characters" onClick={() => {ani(); toggleNav()}} 
 					className={nav.items}>Characters</Link>
-				<Link to="/menu" onClick={() => props.changeAnimate(true)}
+				<Link to="/menu" onClick={() => {ani(); toggleNav()}} 
 					className={nav.items}>Menu</Link>
 				{/* <Link to="/media" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Media</Link>
@@ -45,7 +54,7 @@ export default function Navbar(props) {
 					className={nav.items}>Credits</Link>
 				<Link to="/merch" onClick={() => props.changeAnimate(true)}
 					className={nav.items}>Merch</Link> */}
-				<Link to="/contacts" onClick={() => props.changeAnimate(true)}
+				<Link to="/contacts" onClick={() => {ani(); toggleNav()}} 
 					className={nav.items}>Contacts</Link>
 			</ul>
 			)}
