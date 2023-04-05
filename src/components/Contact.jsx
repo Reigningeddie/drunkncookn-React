@@ -11,19 +11,33 @@ export default function Contact() {
           <container className={cont.flex}>
 
             <card className={cont.card}>
-              <p className={cont.pic}>Picture</p>
-              <p className={cont.name}>Eddie</p>
-              <p className={cont.roles}>Roles:</p>
-              <h3 className={cont.social}>Socials</h3>
-              <p className={cont.ig}>Instagram</p>
+                <p className={cont.id}>Drunkn'Cookn Identification Card</p>
+                <container className={cont.cContainer}>
+                  <section className={cont.section}>
+                    <p className={cont.pic}>Picture</p>
+                  </section>
+                  <section className={cont.section}>
+                    <p className={cont.name}>Eduardo</p>
+                    <p className={cont.roles}>Roles:</p>
+                    <h3 className={cont.social}>Socials</h3>
+                    <p className={cont.ig}>Instagram</p>
+                  </section>
+                </container>
             </card>
 
             <card className={cont.card}>
-              <p className={cont.pic}>Picture</p>
-              <p className={cont.name}>Edward</p>
-              <p className={cont.roles}>Roles:</p>
-              <h3 className={cont.social}>Socials</h3>
-              <p className={cont.ig}>Instagram</p>
+                <p className={cont.id}>Drunkn'Cookn Identification Card</p>
+                <container className={cont.cContainer}>
+                  <section className={cont.section}>
+                    <p className={cont.pic}>Picture</p>
+                  </section>
+                  <section className={cont.section}>
+                    <p className={cont.name}>Edward</p>
+                    <p className={cont.roles}>Roles:</p>
+                    <h3 className={cont.social}>Socials</h3>
+                    <p className={cont.ig}>Instagram</p>
+                  </section>
+                </container>
             </card>
 
           </container>

@@ -20,6 +20,7 @@
 }
 
 @media screen and (max-width: 900px) {
+
     .container {
         flex-direction: column;
         row-gap: 20px;
@@ -28,11 +29,14 @@
     .charsBody {
         top: 50vh;
     }
+
 }
 
 @media screen and (max-width: 675px) {
+
+
     .charsBody {
-        top: 33vh
+        top: 35vh;
     }
 
 }
