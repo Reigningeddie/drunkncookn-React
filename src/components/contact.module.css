@@ -28,7 +28,9 @@
   align-items: center;
 }
 
-.href {
+/* drunkn'cookn ig tag */
+
+.dTag {
   font-size: 40px;
 }
 
@@ -104,6 +106,16 @@
 
   .cContainer {
     flex-direction: column;
+    width: 115px;
   }
 
 }
+
+.href {
+  color: #fa8b8b;
+}
+
+.href:visited {
+  color: #5fd0ce;
+}
+
