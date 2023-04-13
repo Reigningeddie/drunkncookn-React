@@ -88,16 +88,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 6vw;
+  /* width: 6vw; */
 }
 
 .des {
   padding: 8vw;
 }
 
-.description {
+/* .description {
   width: 7vw;
-}
+} */
 
 .price {
   color: #fa8b8b;
