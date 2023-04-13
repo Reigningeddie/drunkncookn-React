@@ -1,8 +1,9 @@
-// import React from 'react';
+import { React, useState } from 'react'
 import menu from './menu.module.css'
 import MenuItem from './MenuItems'
 
 export default function Menu() {
+  const [activeIndex, setActiveIndex] = useState(0);
   const menuItems = [
     {
       picture: 'Number #1',
