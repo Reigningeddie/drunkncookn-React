@@ -1,4 +1,3 @@
-import React from 'react';
 import menu from './menu.module.css'
 
 export default function MenuItems({ item }) {
