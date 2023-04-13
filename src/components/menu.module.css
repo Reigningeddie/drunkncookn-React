@@ -38,6 +38,7 @@
   height: 50vh;
   width: 60vw;
   align-items: center;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 675px) {
@@ -94,9 +95,9 @@
   padding: 8vw;
 }
 
-/* .description {
-  border: solid;
-} */
+.description {
+  width: 7vw;
+}
 
 .price {
   color: #fa8b8b;
