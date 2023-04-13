@@ -27,15 +27,9 @@ export default function Menu() {
         <container className={menu.menu}>
           <button>&larr;</button>
 
-          {menuItems.map((card) => {
-            return <MenuItem item={card}/>
+          {menuItems.map((item) => {
+            return <MenuItem item={item}/>
           })}
-          
-          {/* <card className={menu.card}>
-            <p className={menu.pic}>Picture</p>
-            <p className={menu.des}>Description</p>
-            <p className={menu.price}>$15</p>
-          </card> */}
 
           <button>&rarr;</button>
         </container>

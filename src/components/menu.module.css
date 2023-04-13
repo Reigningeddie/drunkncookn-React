@@ -83,15 +83,30 @@
   border-radius: 50%;
 }
 
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6vw;
+}
+
 .des {
   padding: 8vw;
 }
+
+/* .description {
+  border: solid;
+} */
 
 .price {
   color: #fa8b8b;
   font-size: 1rem;
   padding: 5vw;
 }
+
+/* .moola {
+  border: solid;
+} */
 
 
 
