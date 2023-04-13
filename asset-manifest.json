@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/drunkncookn-React/static/css/main.d7c0a0cc.chunk.css",
-    "main.js": "/drunkncookn-React/static/js/main.ce67bf6e.chunk.js",
-    "main.js.map": "/drunkncookn-React/static/js/main.ce67bf6e.chunk.js.map",
+    "main.css": "/drunkncookn-React/static/css/main.712ea43f.chunk.css",
+    "main.js": "/drunkncookn-React/static/js/main.d706d692.chunk.js",
+    "main.js.map": "/drunkncookn-React/static/js/main.d706d692.chunk.js.map",
     "runtime-main.js": "/drunkncookn-React/static/js/runtime-main.ce8bf0ff.js",
     "runtime-main.js.map": "/drunkncookn-React/static/js/runtime-main.ce8bf0ff.js.map",
-    "static/js/2.65d7fd60.chunk.js": "/drunkncookn-React/static/js/2.65d7fd60.chunk.js",
-    "static/js/2.65d7fd60.chunk.js.map": "/drunkncookn-React/static/js/2.65d7fd60.chunk.js.map",
+    "static/js/2.4d6ba3aa.chunk.js": "/drunkncookn-React/static/js/2.4d6ba3aa.chunk.js",
+    "static/js/2.4d6ba3aa.chunk.js.map": "/drunkncookn-React/static/js/2.4d6ba3aa.chunk.js.map",
     "static/js/3.42e3f160.chunk.js": "/drunkncookn-React/static/js/3.42e3f160.chunk.js",
     "static/js/3.42e3f160.chunk.js.map": "/drunkncookn-React/static/js/3.42e3f160.chunk.js.map",
     "index.html": "/drunkncookn-React/index.html",
-    "static/css/main.d7c0a0cc.chunk.css.map": "/drunkncookn-React/static/css/main.d7c0a0cc.chunk.css.map",
-    "static/js/2.65d7fd60.chunk.js.LICENSE.txt": "/drunkncookn-React/static/js/2.65d7fd60.chunk.js.LICENSE.txt",
-    "static/media/character-animation.545ea23c.gif": "/drunkncookn-React/static/media/character-animation.545ea23c.gif",
-    "static/media/default.fbe22057.png": "/drunkncookn-React/static/media/default.fbe22057.png"
+    "static/css/main.712ea43f.chunk.css.map": "/drunkncookn-React/static/css/main.712ea43f.chunk.css.map",
+    "static/js/2.4d6ba3aa.chunk.js.LICENSE.txt": "/drunkncookn-React/static/js/2.4d6ba3aa.chunk.js.LICENSE.txt",
+    "static/media/Ghost.0b49c426.png": "/drunkncookn-React/static/media/Ghost.0b49c426.png",
+    "static/media/Hank.d8e191ec.png": "/drunkncookn-React/static/media/Hank.d8e191ec.png",
+    "static/media/Howard.56683cc2.png": "/drunkncookn-React/static/media/Howard.56683cc2.png",
+    "static/media/Mark.9623ae5a.png": "/drunkncookn-React/static/media/Mark.9623ae5a.png",
+    "static/media/Tasha.0a32d30f.png": "/drunkncookn-React/static/media/Tasha.0a32d30f.png",
+    "static/media/Two-Times.807186ee.png": "/drunkncookn-React/static/media/Two-Times.807186ee.png",
+    "static/media/Vanessa.2c80354b.png": "/drunkncookn-React/static/media/Vanessa.2c80354b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ce8bf0ff.js",
-    "static/js/2.65d7fd60.chunk.js",
-    "static/css/main.d7c0a0cc.chunk.css",
-    "static/js/main.ce67bf6e.chunk.js"
+    "static/js/2.4d6ba3aa.chunk.js",
+    "static/css/main.712ea43f.chunk.css",
+    "static/js/main.d706d692.chunk.js"
   ]
 }
