@@ -25,10 +25,10 @@ export default function Menu() {
     },
   ]
   return (
-    <section className={menu.menuBody}>
-      <container className={menu.container}>
+    <main className={menu.menuBody}>
+      <div className={menu.container}>
         <h1 className={menu.title}>Our Menu</h1>
-        <container className={menu.menu}>
+        <div className={menu.menu}>
           <button>&larr;</button>
 
           {menuItems.map((item) => {
@@ -36,8 +36,8 @@ export default function Menu() {
           })}
 
           <button>&rarr;</button>
-        </container>
-      </container>
+        </div>
+      </div>
       <div className={menu.lowerContainer}>
         
         {menuItems.map((item) => {
@@ -48,6 +48,6 @@ export default function Menu() {
         })}
 
       </div>
-    </section>
+    </main>
   )
 }
