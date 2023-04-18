@@ -13,6 +13,13 @@
   display: block;
 }
 
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .title {
   font-family: 'Righteous', cursive;
   display: flex;
@@ -22,8 +29,10 @@
 }
 
 .menu {
+  overflow: hidden;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   gap: 5px; 
   align-items: center;
 }
@@ -31,6 +40,7 @@
 .inner {
   white-space: nowrap;
   transition: transform 0.3s;
+  width: 60vw;
 }
 
 .card {
@@ -41,7 +51,6 @@
   border: solid;
   border-radius: 15px;
   height: 50vh;
-  width: 1vw;
   align-items: center;
   overflow: hidden;
 }
@@ -115,13 +124,7 @@
   border: solid;
 } */
 
-.indicator {
-  /* display: flex; */
-  padding-top: 20px;
-  /* justify-content: center;
-  align-items: center; */
-  gap: 10px;
-}
+
 /*!add new container inside mapped return */
 
 .lowerContainer {
@@ -137,6 +140,7 @@
   border: solid;
   width: 150px;
   justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -148,7 +152,6 @@
 
 
 button {
-  height: 40px;
   background: none;
   color: #5fd0ce;
   border: none;

@@ -24,7 +24,7 @@ export default function Menu() {
       description: 'Description #3',
       price: '$35'
     },
-  ]
+  ];
 
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
@@ -39,27 +39,26 @@ export default function Menu() {
     <main className={menu.menuBody}>
       <div className={menu.container}>
         <h1 className={menu.title}>Our Menu</h1>
+        <div className={menu.cont}>
         <div className={menu.menu}>
-          <button onClick={() => {updateIndex(activeIndex -1);}}>&larr;</button>
             <div className={menu.inner} style={{ transform: `translate(-${activeIndex * 100}%)` }}>
-          {menuItems.map((item) => {
-            return <MenuItem item={item} width={"100%"}/>
-          })}
+              {menuItems.map((item) => {
+              return <MenuItem item={item} width={ '100%' }/>
+            })}
             </div>
-          <button onClick={() => {updateIndex(activeIndex +1);}}>&rarr;</button>
+        </div>
         </div>
       </div>
       <div className={menu.lowerContainer}>
-        
+      <button onClick={() => {updateIndex(activeIndex -1);}}>&larr;</button>
         {menuItems.map((item, index) => {
           return (
-
               <p onClick={() => {updateIndex(index);}} className={menu.dishes}>{item.dish}</p>
-
           );
         })}
-
+          <button onClick={() => {updateIndex(activeIndex +1);}}>&rarr;</button>
       </div>
+      
     </main>
   )
 }
