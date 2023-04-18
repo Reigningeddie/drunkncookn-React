@@ -4,6 +4,7 @@ import MenuItem from './MenuItems'
 
 export default function Menu() {
   const [activeIndex, setActiveIndex] = useState(0);
+
   const menuItems = [
     {
       picture: 'Number #1',
@@ -24,27 +25,36 @@ export default function Menu() {
       price: '$35'
     },
   ]
+
+  const updateIndex = (newIndex) => {
+    if (newIndex < 0) {
+      newIndex = 0;
+    } else if (newIndex >= menuItems.length) {
+      newIndex = menuItems.length -1;
+    }
+
+  setActiveIndex(newIndex);
+  }
   return (
     <main className={menu.menuBody}>
       <div className={menu.container}>
         <h1 className={menu.title}>Our Menu</h1>
-        <div className={menu.menu}
-          style={{ transform: `translate:(-${activeIndex * 100})` }}>
-          <button>&larr;</button>
-
+        <div className={menu.menu}>
+          <button onClick={() => {updateIndex(activeIndex -1);}}>&larr;</button>
+            <div className={menu.inner} style={{ transform: `translate(-${activeIndex * 100}%)` }}>
           {menuItems.map((item) => {
-            return <MenuItem item={item}/>
+            return <MenuItem item={item} width={"100%"}/>
           })}
-
-          <button>&rarr;</button>
+            </div>
+          <button onClick={() => {updateIndex(activeIndex +1);}}>&rarr;</button>
         </div>
       </div>
       <div className={menu.lowerContainer}>
         
-        {menuItems.map((item) => {
+        {menuItems.map((item, index) => {
           return (
 
-              <div className={menu.dishes}>{item.dish}</div>
+              <p onClick={() => {updateIndex(index);}} className={menu.dishes}>{item.dish}</p>
 
           );
         })}

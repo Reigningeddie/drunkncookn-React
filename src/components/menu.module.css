@@ -28,15 +28,20 @@
   align-items: center;
 }
 
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
 .card {
   color: #5fd0ce;
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
+  justify-content: center;
   background: #1c182e;
   border: solid;
   border-radius: 15px;
   height: 50vh;
-  width: 60vw;
+  width: 1vw;
   align-items: center;
   overflow: hidden;
 }
@@ -132,7 +137,15 @@
   border: solid;
   width: 150px;
   justify-content: center;
+  cursor: pointer;
 }
+
+.dishes-active {
+  background-color: #e2cdcd;
+  color: black;
+}
+
+
 
 button {
   height: 40px;
@@ -140,4 +153,5 @@ button {
   color: #5fd0ce;
   border: none;
   font-size: 50px;
+  cursor: pointer;
 }

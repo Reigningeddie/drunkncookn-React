@@ -1,9 +1,8 @@
 import menu from './menu.module.css'
 
-export default function MenuItems({ item }) {
+export default function MenuItems({ item, width }) {
   return (
-    <>
-      <main className={menu.card}>
+      <main className={menu.card} style={{ width: width }}>
         <div className={menu.pic}>
           <p className={menu.image}>{item.picture}</p>
         </div>
@@ -14,6 +13,5 @@ export default function MenuItems({ item }) {
           <p className={menu.moola}>{item.price}</p>
         </div>
       </main>
-    </>
   )
 }
