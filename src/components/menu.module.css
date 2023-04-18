@@ -39,7 +39,7 @@
 
 .inner {
   white-space: nowrap;
-  transition: transform 0.3s;
+  transition: transform .3s;
   width: 60vw;
 }
 

@@ -51,7 +51,7 @@
   border-radius: 15px;
   padding: 20px;
   height: 50vh;
-  width: 40vw;
+  width: 45vw;
 }
 
 .id {
@@ -69,6 +69,7 @@
   color: #5fd0ce;
   background: #1c182e;
   align-items: center;
+  gap: 1vw;
   justify-content: flex-start;
 }
 
@@ -91,7 +92,7 @@
 }
 
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 850px) {
   .contBody {
     top: 35vh;
   }
@@ -106,7 +107,6 @@
 
   .cContainer {
     flex-direction: column;
-    width: 115px;
   }
 
 }
