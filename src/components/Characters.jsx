@@ -12,7 +12,7 @@ import Ghost from '../images/Ghost.png'
 
 export default function Characters() {
   return (
-    <container className={`${chars.charsBody}`}>
+    <section className={`${chars.charsBody}`}>
       <main>
         <section>
         <div className={chars.container}>
@@ -39,6 +39,6 @@ export default function Characters() {
           </div>
           </section>
       </main>
-    </container>
+    </section>
   )
 }

@@ -6,9 +6,9 @@ export default function Title(props) {
     
     return (
         <>
-        <container className={`${neon.title}`}>
+        <section className={`${neon.title}`}>
             <h1 className={animate}>Drunkn'Cookn</h1>
-        </container>
+        </section>
         </>
     )
 }

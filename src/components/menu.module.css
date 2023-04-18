@@ -13,6 +13,8 @@
   display: block;
 }
 
+
+
 .title {
   font-family: 'Righteous', cursive;
   display: flex;
@@ -110,7 +112,19 @@
   border: solid;
 } */
 
-
+.indicator {
+  /* display: flex; */
+  padding-top: 20px;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 10px;
+}
+/*!add new container inside mapped return */
+.dishes {
+  display: flex;
+  justify-content: center;
+  color: #fa8b8b;
+}
 
 button {
   height: 40px;

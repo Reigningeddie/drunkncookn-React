@@ -21,6 +21,7 @@ function App() {
     window.localStorage.setItem('ANIMATE', JSON.stringify(animate))
   }, [animate]);
 
+
   return (
     <HashRouter>
     <Navbar changeAnimate={animate => setAnimate(animate)}/>
