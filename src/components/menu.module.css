@@ -66,6 +66,7 @@
 
   .card {
     flex-direction: column;
+    height: 60vh;
     overflow: hidden;
   }
 
@@ -81,6 +82,7 @@
 @media screen and (min-width: 675px) {
   .pic {
     margin-left: 8px;
+
   }
 
   .des {
@@ -94,7 +96,7 @@
 
 .pic {
   background-color: #fa8b8b;
-  padding: 8vw;
+  padding: 10vw;
   border-radius: 50%;
 }
 
