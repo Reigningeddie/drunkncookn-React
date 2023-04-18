@@ -13,8 +13,6 @@
   display: block;
 }
 
-
-
 .title {
   font-family: 'Righteous', cursive;
   display: flex;
@@ -120,12 +118,26 @@
   gap: 10px;
 }
 /*!add new container inside mapped return */
-.dishes {
+
+.lowerContainer {
+  padding-top: 25px;
+  color: #fa8b8b;
   display: flex;
   justify-content: center;
-  color: #fa8b8b;
+  gap: 10px;
+}
+
+.dishes {
+  display: flex;
+  border: solid;
+  width: 150px;
+  justify-content: center;
 }
 
 button {
   height: 40px;
+  background: none;
+  color: #5fd0ce;
+  border: none;
+  font-size: 50px;
 }

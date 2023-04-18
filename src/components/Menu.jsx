@@ -1,9 +1,9 @@
-import { React } from 'react'
+import { React, useState } from 'react'
 import menu from './menu.module.css'
 import MenuItem from './MenuItems'
 
 export default function Menu() {
-  // const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
   const menuItems = [
     {
       picture: 'Number #1',
@@ -28,7 +28,8 @@ export default function Menu() {
     <main className={menu.menuBody}>
       <div className={menu.container}>
         <h1 className={menu.title}>Our Menu</h1>
-        <div className={menu.menu}>
+        <div className={menu.menu}
+          style={{ transform: `translate:(-${activeIndex * 100})` }}>
           <button>&larr;</button>
 
           {menuItems.map((item) => {
@@ -42,8 +43,9 @@ export default function Menu() {
         
         {menuItems.map((item) => {
           return (
-            
-          <p className={menu.dishes}>{item.dish}</p>
+
+              <div className={menu.dishes}>{item.dish}</div>
+
           );
         })}
 
